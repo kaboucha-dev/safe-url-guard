@@ -1,6 +1,6 @@
 # safe-url-guard
 
-[![tests](https://github.com/kaboucha-dev/safe-url-guard/actions/workflows/tests.yml/badge.svg)](https://github.com/kaboucha-dev/safe-url-guard/actions/workflows/tests.yml) ![python](https://img.shields.io/badge/python-3.9%2B-blue) ![license](https://img.shields.io/badge/license-MIT-green)
+[![tests](https://github.com/kaboucha-dev/safe-url-guard/actions/workflows/tests.yml/badge.svg)](https://github.com/kaboucha-dev/safe-url-guard/actions/workflows/tests.yml) ![python](https://img.shields.io/badge/python-3.11%2B-blue) ![license](https://img.shields.io/badge/license-MIT-green)
 
 **Stop SSRF in Python apps that fetch URLs given by users.**
 
