@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "safe-url-guard"
+version = "0.1.0"
+description = "Stop SSRF in Python apps that fetch user URLs: blocks internal addresses, IP tricks and unsafe redirects."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.9"
+keywords = ["ssrf", "security", "url", "validation", "requests"]
+
+[project.optional-dependencies]
+http = ["requests>=2.25"]
+
+[tool.setuptools]
+packages = ["safe_url_guard"]
